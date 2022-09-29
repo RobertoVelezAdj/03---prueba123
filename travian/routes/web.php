@@ -26,3 +26,7 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+
+
+Route::get('/construcciones', [App\Http\Controllers\ConstruccionesController::class, 'inicio'])->name('construcciones');
+Route::get('/aldeas', [App\Http\Controllers\ConstruccionesController::class, 'inicio'])->name('aldeas');

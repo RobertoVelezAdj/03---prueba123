@@ -1,0 +1,10 @@
+php artisan permission:create-role admin
+php artisan permission:create-role super-admin
+php artisan permission:create-role lider
+php artisan permission:create-role ofensivo
+php artisan permission:create-role defensivo
+
+php artisan permission:create-permission "ver usuarios" 
+php artisan permission:create-permission "ver aldeas" 
+
+php migrate --seed
