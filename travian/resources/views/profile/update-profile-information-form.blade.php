@@ -70,6 +70,12 @@
             <x-jet-input id="alianza" type="text" class="mt-1 block w-full" wire:model.defer="state.alianza" autocomplete="alianza" />
             <x-jet-input-error for="alianza" class="mt-2" />
         </div>
+        <!-- Alianza -->
+        <div class="col-span-6 sm:col-span-4">
+            <x-jet-label for="raza" value="{{ __('raza') }}" />
+            <x-jet-input id="raza" type="text" class="mt-1 block w-full" wire:model.defer="state.raza" autocomplete="raza" />
+            <x-jet-input-error for="raza" class="mt-2" />
+        </div>
         <!-- servidor -->
         <div class="col-span-6 sm:col-span-4">
             <x-jet-label for="servidor" value="{{ __('servidor') }}" />

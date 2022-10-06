@@ -13,6 +13,19 @@
                 <x-jet-label for="name" value="{{ __('Name') }}" />
                 <x-jet-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus autocomplete="name" />
             </div>
+            <div>
+                <x-jet-label for="login" value="{{ __('login') }}" />
+                <x-jet-input id="login" class="block mt-1 w-full" type="text" name="login" :value="old('login')" required autofocus autocomplete="login" />
+            </div>
+
+            <div>
+                <x-jet-label for="servidor" value="{{ __('Servidor') }}" />
+                <x-jet-input id="servidor" class="block mt-1 w-full" type="text" name="servidor" :value="old('servidor')" required autofocus autocomplete="server" />
+            </div>
+            <div>
+                <x-jet-label for="raza" value="{{ __('raza') }}" />
+                <x-jet-input id="raza" class="block mt-1 w-full" type="text" name="raza" :value="old('raza')" required autofocus autocomplete="raza" />
+            </div>
 
             <div class="mt-4">
                 <x-jet-label for="email" value="{{ __('Email') }}" />

@@ -155,6 +155,7 @@
                             $p = $registro->pc;
                             $prod = $registro->produccion;
                             $totalMAterias = $ma+$ba+$hi+$cere;
+                            
                          @endphp
                         <tr>
                         <td>{{$registro->nombre_ed}}</td>

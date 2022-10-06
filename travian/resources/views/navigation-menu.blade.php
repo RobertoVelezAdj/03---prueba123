@@ -23,8 +23,8 @@
 
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-jet-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
-                        {{ __('Inicio') }}
+                    <x-jet-nav-link href="{{ route('adminUsuarios') }}" :active="request()->routeIs('adminUsuarios')">
+                        {{ __('Administracion') }}
                     </x-jet-nav-link>
                 </div>
                  <!-- Construcciones -->
@@ -37,6 +37,11 @@
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-jet-nav-link href="{{ route('aldeas') }}" :active="request()->routeIs('aldeas')">
                         {{ __('Aldeas') }}
+                    </x-jet-nav-link>
+                </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-jet-nav-link href="{{ route('vacas') }}" :active="request()->routeIs('vacas')">
+                        {{ __('Lista de vacas') }}
                     </x-jet-nav-link>
                 </div>
                 
